@@ -12,10 +12,10 @@ const StoreFront = () => {
      <div id='products'>
         <Product />
       </div>
-      {/* <div id='services'>
+      <div id='services'>
         <Services/>
-      </div> */}
-      <Services/>
+      </div>
+      {/* <Services/> */}
     </main>
   )
 }
