@@ -3,11 +3,11 @@
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
-    gap: 10px;
+    /* gap: 10px; */
     margin-top: 10px;
-    background-color: rgb(71, 218, 218);
+    background-color: rgb(236, 230, 230);
 }
 .serviceBody > h2{
     font-size: 30px;
@@ -18,9 +18,16 @@
     padding: 5px 15px;
     border: none;
     border-radius: 10px;
-    background-color: cornflowerblue;
+    background-color: blueviolet;
     color: whitesmoke;
+    font-size: 12px;
     margin-bottom: 7px;
+    transition: all 250ms ease-in;
+    transform: scale(1);
+}
+.serviceBody > button:hover{
+    background-color: rgb(127, 29, 219);
+    transform: scale(1.02);
 }
 .serviceWrap{
     width: 90%;
@@ -77,4 +84,8 @@
     border-radius: 8px;
     background-color: blueviolet;
     cursor: pointer;
+}
+.serviceCon > button:hover{
+    background-color: rgb(127, 29, 219);
+    transform: scale(1.02);
 }

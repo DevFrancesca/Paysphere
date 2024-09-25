@@ -17,9 +17,16 @@
     padding: 5px 15px;
     border: none;
     border-radius: 10px;
-    background-color: cornflowerblue;
+    background-color: blueviolet;
     color: whitesmoke;
+    font-size: 12px;
     margin-bottom: 7px;
+    transition: all 250ms ease-in;
+    transform: scale(1);
+}
+.productBody > button:hover{
+    background-color: rgb(127, 29, 219);
+    transform: scale(1.02);
 }
 .productWrap{
     width: 90%;
@@ -76,4 +83,8 @@
     border-radius: 8px;
     background-color: blueviolet;
     cursor: pointer;
+}
+.productCon > button:hover{
+    background-color: rgb(127, 29, 219);
+    transform: scale(1.02);
 }
