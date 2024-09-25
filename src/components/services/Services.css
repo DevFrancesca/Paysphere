@@ -5,7 +5,6 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    /* gap: 10px; */
     margin-top: 10px;
     background-color: rgb(236, 230, 230);
 }

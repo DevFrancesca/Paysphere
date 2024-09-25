@@ -51,11 +51,14 @@
     border-radius: 10px;
     background-color: cornflowerblue;
     color: whitesmoke;
+    transition: all 250ms ease-in;
+    transform: scale(1);
 }
 
 .heroLeft > button:hover {
     background-color: rgb(74, 133, 243);
     color: black;
+    transform: scale(1.02);
 }
 
 .heroRight {
