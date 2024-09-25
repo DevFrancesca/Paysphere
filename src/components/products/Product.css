@@ -88,3 +88,16 @@
     background-color: rgb(127, 29, 219);
     transform: scale(1.02);
 }
+
+@media only screen and (max-width: 420px ){
+    .productCon{
+        width: 150px;
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 360px ){
+    .productCon{
+        width: 130px;
+        height: 230px;
+    }
+}
