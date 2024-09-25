@@ -6,19 +6,19 @@ import { useDispatch } from 'react-redux'
 const Services = () => {
   const serv =[
     {
-      image: "/item1.png",
+      image: "/neoEye.jpeg",
       decrip1: "Neocell Suoer Collagen",
       decrip2: "+c6,000mg Type1",
       price: "16,999"
     },
     {
-      image: "/item2.png",
+      image: "/neoSul.jpeg",
       decrip1: "Neocell Suoer Collagen",
       decrip2: "+c6,000mg Type1",
       price: "16,999"
     },
     {
-      image: "/heroImg.png",
+      image: "/neo.jpeg",
       decrip1: "Neocell Suoer Collagen",
       decrip2: "+c6,000mg Type1",
       price: "16,999"
@@ -30,13 +30,13 @@ const Services = () => {
       price: "16,999"
     },
     {
-      image: "/item5.png",
+      image: "/aben.jpeg",
       decrip1: "Neocell Suoer Collagen",
       decrip2: "+c6,000mg Type1",
       price: "16,999"
     },
     {
-      image: "/item1.png",
+      image: "/abenda.jpeg",
       decrip1: "Neocell Suoer Collagen",
       decrip2: "+c6,000mg Type1",
       price: "16,999"
@@ -48,7 +48,7 @@ const Services = () => {
       price: "16,999"
     },
     {
-      image: "/heroImg.png",
+      image: "/neo.jpeg",
       decrip1: "Neocell Suoer Collagen",
       decrip2: "+c6,000mg Type1",
       price: "16,999"
