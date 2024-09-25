@@ -1,5 +1,7 @@
 import React from 'react'
 import './Product.css'
+import { useDispatch } from 'react-redux'
+import { addToCart } from '../../features/Slice'
 
 const Product = () => {
   const items =[
@@ -52,6 +54,7 @@ const Product = () => {
       price: "16,999"
     },
   ]
+  const dispatch = useDispatch()
   return (
     <div className='productBody'>
       <h2>Products</h2>
@@ -64,7 +67,7 @@ const Product = () => {
           </div>
           <p>{item.decrip1} <br />{item.decrip2}</p>
           <h3>${item.price}</h3>
-          <button>Add</button>
+          <button onClick={()=> dispatch(addToCart())}>Add</button>
         </article>
         ))}
 
