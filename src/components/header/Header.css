@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: sticky;
+    position: fixed;
     z-index: 1111;
 }
 .headerWrap{
@@ -87,7 +87,7 @@ ul{
 }
 
 
-/* @media only screen and (max-width: 420px ){
+@media only screen and (max-width: 420px ){
     .navs{
         width: 65%;
     }
@@ -100,9 +100,9 @@ ul{
     .navs> ul > li{
         font-size: 12px;
     }
-} */
+} 
 
-/* @media only screen and (max-width: 360px ){
+@media only screen and (max-width: 360px ){
     .navs{
         width: 65%;
     }
@@ -115,4 +115,4 @@ ul{
     .navs> ul > li{
         font-size: 10px;
     }
-} */
+}

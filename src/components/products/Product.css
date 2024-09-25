@@ -1,17 +1,25 @@
 .productBody{
     width: 100%;
     height: auto;
+    background-color: rgb(152, 234, 234);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
-    gap: 10px;
     margin-top: 10px;
 }
 .productBody > h2{
     font-size: 30px;
     color: blueviolet;
     font-weight: 600;
+}
+.productBody > button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    margin-bottom: 7px;
 }
 .productWrap{
     width: 90%;

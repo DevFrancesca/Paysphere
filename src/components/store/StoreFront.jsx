@@ -8,15 +8,14 @@ import Services from '../services/Services'
 const StoreFront = () => {
   return (
     <main className='mainBody'>
-     <div id='/'>
         <Hero/>
-      </div>
      <div id='products'>
         <Product />
       </div>
-      <div id='services'>
+      {/* <div id='services'>
         <Services/>
-      </div>
+      </div> */}
+      <Services/>
     </main>
   )
 }
